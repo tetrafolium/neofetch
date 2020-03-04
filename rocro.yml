@@ -1,20 +1,22 @@
 inspecode:
 
   fossology:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 5 }
 
   grep:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 }
 
   jscpd:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 }
 
   misspell:
     auto-fix: true
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 8 }
 
   shellcheck:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 }
 
   unused:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 }
+      # excluded all analyzable files by input/ignore patterns
+      # Unused was skipped.
