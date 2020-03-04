@@ -1,0 +1,20 @@
+inspecode:
+
+  fossology:
+    thresholds: { num-issues: 999 }
+
+  grep:
+    thresholds: { num-issues: 999 }
+
+  jscpd:
+    thresholds: { num-issues: 999 }
+
+  misspell:
+    auto-fix: true
+    thresholds: { num-issues: 999 }
+
+  shellcheck:
+    thresholds: { num-issues: 999 }
+
+  unused:
+    thresholds: { num-issues: 999 }
