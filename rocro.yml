@@ -14,9 +14,13 @@ inspecode:
     thresholds: { num-issues: 8 }
 
   shellcheck:
+  - input: netfetch
+    thresholds: { num-issues: 0 }
+  - input: netfetch
+    options:
+      --shell: bash
     thresholds: { num-issues: 0 }
 
   unused:
+    input: netfetch
     thresholds: { num-issues: 0 }
-      # excluded all analyzable files by input/ignore patterns
-      # Unused was skipped.
