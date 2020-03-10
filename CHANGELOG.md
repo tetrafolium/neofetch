@@ -1748,7 +1748,7 @@ This release fixes various bugs found in 1.8.
 ## Images
 
 **General**<br \>
-- Added a tiny delay before running w3m-img which suprisingly fixed all flickering issues in VTE based terminals. See [#349](https://github.com/dylanaraps/neofetch/pull/349)
+- Added a tiny delay before running w3m-img which surprisingly fixed all flickering issues in VTE based terminals. See [#349](https://github.com/dylanaraps/neofetch/pull/349)
 
 **Wallpaper**<br \>
 - Fix wallpapers with spaces in the filename from not showing up.
@@ -1931,7 +1931,7 @@ this release.
 
 I'm also looking for some new Readme screenshots, see this github issue: **https://github.com/dylanaraps/neofetch/issues/245**
 
-### Contributers
+### Contributors
 
 Thanks to the following people for contributing this release.
 - **[@dawidd6](https://github.com/dawidd6)**
@@ -2069,7 +2069,7 @@ called `fg` which will set the color to your foreground color.
 ```
 - You can now individually set the progress bar characters by using
   `progress_char_elapsed` and `progress_char_total`. This means that you can
-  have a seperate character for the elapsed and total portions of the bar.
+  have a separate character for the elapsed and total portions of the bar.
 
 ``` sh
 # Examples with $progress_border on
@@ -2241,7 +2241,7 @@ Thanks to the following people for contributing this release.
 
 ![Xubuntu](https://ipfs.pics/ipfs/QmWPvwW3nQoKVffHSZUu57MwCpQDZoMVTHQVwwCom2ChqM)
 
-### Contributers
+### Contributors
 
 Thanks to the following people for helping me to improve neofetch.
 - **[@iandrewt](https://github.com/iandrewt)**
@@ -2320,7 +2320,7 @@ me finish up with this PR.
 **Song**<br \>
 - [ OSX ] Added Spotify support to song. **[@iandrewt](https://github.com/iandrewt)**
 - [ OSX ] Added Itunes support to song. **[@iandrewt](https://github.com/iandrewt)**
-- Fix bug with `song_shorthand` and songs with more than one occurence of `-`.
+- Fix bug with `song_shorthand` and songs with more than one occurrence of `-`.
 
 **Battery**<br \>
 - Fixed a naming error when multiple batteries are displayed. **[@iandrewt](https://github.com/iandrewt)**
@@ -2453,7 +2453,7 @@ fetch --size 200px
 - Add support for Wayland window managers. (Hardcoded)
 
 **Song**
-- Added `song_shorthand` which prints the Artist/Title on seperate lines.
+- Added `song_shorthand` which prints the Artist/Title on separate lines.
 
 **Theme**
 - Windows Visual Style is now a part of `getstyle`.
@@ -2581,7 +2581,7 @@ info "Font" font
 **Song**:
 - Added support for `MOC`.
 - We now check to see if the player is running before printing anything.
-- We now check playback state and show it if relevent.
+- We now check playback state and show it if relevant.
 
 **Uptime**:
 - [Linux] Fixed uptime when it's under 1 minute.
@@ -2818,7 +2818,7 @@ I'm also slowly adding pages to the wiki so check it out!
 As of commit 9daacdd the info array at the top of the script has changed
 to a regular function. The benefits of this are pretty cool, you can now
 use any bash syntax to customize what gets displayed. You could have an
-if statment and only print window manager and gtk themes if X is running
+if statement and only print window manager and gtk themes if X is running
 or only show current song if there's one playing.
 
 You can see some examples and read more about it here:
