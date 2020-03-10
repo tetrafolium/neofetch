@@ -14,13 +14,13 @@ inspecode:
     thresholds: { num-issues: 8 }
 
   shellcheck:
-  - input: netfetch
+  - input: neofetch
     thresholds: { num-issues: 0 }
-  - input: netfetch
+  - input: neofetch
     options:
       --shell: bash
     thresholds: { num-issues: 0 }
 
   unused:
-    input: netfetch
+    input: neofetch
     thresholds: { num-issues: 0 }
